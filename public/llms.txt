@@ -4,53 +4,53 @@
 
 ## Pages
 
-### בית
+### תמונות בעבודת יד לבית — Nataly Visberg Art Studio
 https://example.com
 ציורים מקוריים שנוצרו ביד, עם נשמה ואהבה לכל פרט. עצבי את הבית שלך עם יצירות אמנות ייחודיות של אמנית ישראלית. כל תמונה היא חד-פעמית — בדיוק כמוך.
 
-### אודות
-https://example.com/about
-נטלי ויסברג היא אמנית ישראלית שיוצרת ציורים מקוריים מתוך תשוקה אמיתית. גלי את הסיפור שמאחורי כל יצירה, ואת הדרך שהפכה אהבה לאמנות לעסק שלם ומרגש.
-
-### יצירה בהתאמה אישית
+### יצירות שמדברות אל הלב — Nataly Visberg Art Studio
 https://example.com/custom-creation
 תיק עבודות מלא בציורים מקוריים למכירה — כל יצירה צבועה ביד ומחכה לבית החדש שלה. עיצוב פנים עם ציורים מקוריים שהופך כל קיר לסיפור. בחרי את שלך עכשיו.
 
-### צור קשר
-https://example.com/contact
-רוצה יצירה מקורית שתעצב את הבית שלך? פני לנטלי ויסברג ישירות — אמנית ישראלית שיוצרת תמונות בעבודת יד לבית בהתאמה אישית. בואי נברא משהו מיוחד יחד.
+### האמנית מאחורי כל מכחול — Nataly Visberg Art Studio
+https://example.com/about
+נטלי ויסברג היא אמנית ישראלית שיוצרת ציורים מקוריים מתוך תשוקה אמיתית. גלי את הסיפור שמאחורי כל יצירה, ואת הדרך שהפכה אהבה לאמנות לעסק שלם ומרגש.
 
-### Products
+### מוצרים
 https://example.com/products
 המוצרים שלנו - Nataly Visberg Art Studio
 
-### Cart
+### עגלת קניות
 https://example.com/cart
 עגלת הקניות שלך
 
-### Checkout
+### תשלום
 https://example.com/checkout
 תשלום
 
-### Login
+### התחברות
 https://example.com/login
 התחברות לקוחות
 
-### Account
+### החשבון שלי
 https://example.com/account
 החשבון שלי
 
-### Order Success
+### ההזמנה התקבלה!
 https://example.com/order-success
 תודה על ההזמנה
 
-### Product Detail
+### פרטי המוצר
 https://example.com/product/:slug
 פרטי המוצר - Nataly Visberg Art Studio
 
-### Category
+### מוצרים
 https://example.com/category/:slug
 מוצרים - Nataly Visberg Art Studio
+
+### הביתי שלך מתחיל בשיחה אחת — Nataly Visberg Art Studio
+https://example.com/contact
+רוצה יצירה מקורית שתעצב את הבית שלך? פני לנטלי ויסברג ישירות — אמנית ישראלית שיוצרת תמונות בעבודת יד לבית בהתאמה אישית. בואי נברא משהו מיוחד יחד.
 
 ## Legal & Policy
 
