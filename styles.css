@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 /* Self-hosted fonts (Inter + Rubik for multi-language support) */
 
@@ -184,7 +184,9 @@
   --surface-color: #F9FAFB;
   --text-color: #4A4A4A;
   --text-secondary-color: #707070;
-}
+
+  --heading-font: 'Roboto', sans-serif;
+  --font-heading: 'Roboto', sans-serif;}
 
 *,
 *::before,
@@ -254,7 +256,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--text-dark);
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -285,7 +287,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.4;
@@ -294,7 +296,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
@@ -303,7 +305,7 @@ h5 {
 }
 
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.5;
@@ -2579,7 +2581,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 /* H1 */
 .index-hero-section .index-hero-h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 42px;
   font-weight: 400;
   line-height: 1.15;
@@ -2590,7 +2592,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 /* Subtitle (H3) */
 .index-hero-section .index-hero-subtitle {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.65;
@@ -10764,7 +10766,6 @@ body.accessibility-widget-visible ._access-menu {
 .navbar .nav-cta-btn,
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
-
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
