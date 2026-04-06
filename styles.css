@@ -139,7 +139,7 @@
 :root {
 --primary: #6C3B5A;
   --secondary: #D8CEC1;
-  --accent: #C97B63;
+  --accent: #6C3B5A;
   --bg-light: #FFFFFF;
   --bg-dark: #1E1E1A;
   --text-dark: #4A4A4A;
@@ -169,17 +169,17 @@
   --transition-default: all 0.3s ease;
   --transition-hover: all 0.25s ease;
 
-  --gradient-primary: linear-gradient(180deg, #B85C40 0%, #85486E 100%);
-  --gradient-gold-shine: linear-gradient(90deg, #D5CABB 0%, #CF8973 50%, #E2DAD0 100%);
-  --gradient-secondary: linear-gradient(180deg, #D4C9BA 0%, #D2917D 100%);
-  --gradient-gold-accent: linear-gradient(135deg, #C8BAA7 0%, #C36C51 100%);
+  --gradient-primary: linear-gradient(180deg, #4A293E 0%, #85486E 100%);
+  --gradient-gold-shine: linear-gradient(90deg, #D5CABB 0%, #7A4366 50%, #E2DAD0 100%);
+  --gradient-secondary: linear-gradient(180deg, #D4C9BA 0%, #83476D 100%);
+  --gradient-gold-accent: linear-gradient(135deg, #C8BAA7 0%, #5C334D 100%);
   --gradient-dark-section: linear-gradient(180deg, #5B483F 0%, #43352F 100%);
   --gradient-overlay-dark: linear-gradient(180deg, rgba(67,53,47,0.08) 0%, rgba(67,53,47,0.16) 100%);
   --gradient-light-section: linear-gradient(180deg, #FCF8F3 0%, #F2EBE3 100%);
   --gradient-overlay-light: linear-gradient(180deg, rgba(255,250,245,0.68) 0%, rgba(255,250,245,0.86) 100%);
   --primary-color: #6C3B5A;
   --secondary-color: #D8CEC1;
-  --accent-color: #C97B63;
+  --accent-color: #6C3B5A;
   --background-color: #FFFFFF;
   --surface-color: #F9FAFB;
   --text-color: #4A4A4A;
@@ -801,7 +801,7 @@ textarea {
   --nav-text-hover: #6C3B5A;
   --primary: #6C3B5A;
   --secondary: #D8CEC1;
-  --accent: #C97B63;
+  --accent: #6C3B5A;
   --bg-light: #FFFFFF;
   --bg-dark: #1E1E1A;
   --text-dark: #4A4A4A;
@@ -1041,7 +1041,7 @@ textarea {
   --nav-text-hover: #6C3B5A;
   --primary: #6C3B5A;
   --secondary: #D8CEC1;
-  --accent: #C97B63;
+  --accent: #6C3B5A;
   --bg-light: #FFFFFF;
   --bg-dark: #1E1E1A;
   --text-dark: #4A4A4A;
@@ -2126,7 +2126,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 .site-footer {
   --primary: #6C3B5A;
   --secondary: #D8CEC1;
-  --accent: #C97B63;
+  --accent: #6C3B5A;
   --bg-light: #FFFFFF;
   --bg-dark: #1E1E1A;
   --text-dark: #4A4A4A;
@@ -2136,17 +2136,17 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   --border-dark: #7d7b76;
 
   --footer-bg: #2A1F26;
-  --footer-top-border: #C97B63;
+  --footer-top-border: #6C3B5A;
   --footer-heading-color: #FCFAF6;
   --footer-body-color: rgba(252, 250, 246, 0.65);
   --footer-link-color: rgba(252, 250, 246, 0.75);
-  --footer-link-hover: #C97B63;
+  --footer-link-hover: #6C3B5A;
   --footer-bottom-bg: #1A1118;
   --footer-bottom-text: rgba(252, 250, 246, 0.45);
   --footer-bottom-link: rgba(252, 250, 246, 0.6);
-  --footer-bottom-link-hover: #C97B63;
+  --footer-bottom-link-hover: #6C3B5A;
   --footer-social-bg: rgba(255,255,255,0.06);
-  --footer-social-hover-bg: #C97B63;
+  --footer-social-hover-bg: #6C3B5A;
   --footer-social-color: rgba(252,250,246,0.8);
 
   font-family: 'Rubik', sans-serif;
@@ -2642,7 +2642,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   letter-spacing: 0.08em;
   padding: 13px 32px;
   border-radius: 2px;
-  border: 1px solid #C97B63;
+  border: 1px solid #6C3B5A;
   text-decoration: none;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -6653,14 +6653,14 @@ a, button {
 }
 .card-favorite-btn:hover {
   background: rgba(255,255,255,1);
-  color: var(--primary, #C97B63);
+  color: var(--primary, #6C3B5A);
   transform: scale(1.06);
 }
 .card-favorite-btn .heart-filled { display: none; }
 .card-favorite-btn.active .heart-outline { display: none; }
 .card-favorite-btn.active .heart-filled { display: block; }
 .card-favorite-btn.active {
-  color: #b1593d;
+  color: #6C3B5A;
   background: rgba(255,255,255,1);
   box-shadow: 0 2px 10px rgba(231,76,60,0.22);
 }
@@ -6788,9 +6788,9 @@ a, button {
 
 /* Product tags (sale, new, featured badges) */
 .product-tag { display: inline-block; padding: 4px 10px; font-size: 11px; font-weight: 600; border-radius: 4px; background: var(--accent, var(--primary)); color: #fff; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 2px 4px rgba(0,0,0,0.15); pointer-events: auto; }
-.product-tag.tag-sale { background: #C97B63; }
+.product-tag.tag-sale { background: #6C3B5A; }
 .product-tag.tag-new { background: #22c55e; }
-.product-tag.tag-featured { background: #C97B63; }
+.product-tag.tag-featured { background: #6C3B5A; }
 
 /* Filter buttons - V2 themed */
 .product-filters {
@@ -7356,7 +7356,7 @@ a, button {
   transition: color 0.2s;
 }
 .checkout-item-remove:hover {
-  color: #b1593d;
+  color: #6C3B5A;
 }
 
 /* ── Order Details Sidebar ── */
@@ -7437,14 +7437,14 @@ a, button {
 
 /* Validation error overrides (prevent theme color inheritance) */
 .field-error {
-  color: #b1593d !important;
+  color: #6C3B5A !important;
   font-size: 12px !important;
 }
 .field-error.visible {
   display: block !important;
 }
 .checkout-accordion-body .input-wrapper input.input-error {
-  border-color: #C97B63 !important;
+  border-color: #6C3B5A !important;
   box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.1) !important;
 }
 
@@ -7814,7 +7814,7 @@ a, button {
   font-size: 0.75rem;
 }
 .btn-icon:hover { color: var(--accent); }
-.btn-icon.btn-delete:hover { color: #b1593d; }
+.btn-icon.btn-delete:hover { color: #6C3B5A; }
 .btn-icon svg { width: 16px; height: 16px; }
 
 /* Address modal */
@@ -7905,7 +7905,7 @@ a, button {
 }
 .toast.show { opacity: 1; }
 .toast.success { background: #059669; color: #fff; }
-.toast.error { background: #C97B63; color: #fff; }
+.toast.error { background: #6C3B5A; color: #fff; }
 
 @media (max-width: 640px) {
   .profile-field { flex-direction: column; gap: 4px; }
@@ -8047,8 +8047,8 @@ a, button {
 }
 .product-info .product-stock { display: flex; align-items: center; gap: 8px; font-weight: 500; }
 .product-info .product-stock.in-stock { color: #10b981; }
-.product-info .product-stock.out-of-stock { color: #b1593d; }
-.product-info .product-stock.low-stock { color: #b1593d; }
+.product-info .product-stock.out-of-stock { color: #6C3B5A; }
+.product-info .product-stock.low-stock { color: #6C3B5A; }
 .product-stock svg {
   /* Some themes apply global svg { max-width:100%; height:auto; } which can blow this up.
      Clamp explicitly to icon size. */
@@ -8307,13 +8307,13 @@ a, button {
 .coupon-remove-btn {
   background: none;
   border: none;
-  color: #b1593d;
+  color: #6C3B5A;
   cursor: pointer;
   font-size: 0.85rem;
 }
 .coupon-remove-btn:hover { text-decoration: underline; }
 .coupon-error {
-  color: #b1593d;
+  color: #6C3B5A;
   font-size: 0.85rem;
   margin-top: 8px;
 }
@@ -8474,7 +8474,7 @@ a, button {
 .cart-drawer-item-remove {
   background: none;
   border: none;
-  color: #b1593d;
+  color: #6C3B5A;
   cursor: pointer;
   font-size: 0.8rem;
   margin-top: 8px;
@@ -10752,6 +10752,8 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+
 /* === BUTTON TEXT OVERRIDES START === */
 .btn-secondary,
 .btn--secondary,
