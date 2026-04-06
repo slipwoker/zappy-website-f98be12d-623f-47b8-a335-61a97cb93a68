@@ -1,0 +1,79 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+ציורים מקוריים שנוצרו ביד, עם נשמה ואהבה לכל פרט. עצבי את הבית שלך עם יצירות אמנות ייחודיות של אמנית ישראלית. כל תמונה היא חד-פעמית — בדיוק כמוך.
+
+### אודות
+https://example.com/about
+נטלי ויסברג היא אמנית ישראלית שיוצרת ציורים מקוריים מתוך תשוקה אמיתית. גלי את הסיפור שמאחורי כל יצירה, ואת הדרך שהפכה אהבה לאמנות לעסק שלם ומרגש.
+
+### תיק עבודות
+https://example.com/portfolio
+תיק עבודות מלא בציורים מקוריים למכירה — כל יצירה צבועה ביד ומחכה לבית החדש שלה. עיצוב פנים עם ציורים מקוריים שהופך כל קיר לסיפור. בחרי את שלך עכשיו.
+
+### צור קשר
+https://example.com/contact
+רוצה יצירה מקורית שתעצב את הבית שלך? פני לנטלי ויסברג ישירות — אמנית ישראלית שיוצרת תמונות בעבודת יד לבית בהתאמה אישית. בואי נברא משהו מיוחד יחד.
+
+### Products
+https://example.com/products
+המוצרים שלנו - Nataly Visberg Art Studio
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - Nataly Visberg Art Studio
+
+### Category
+https://example.com/category/:slug
+מוצרים - Nataly Visberg Art Studio
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
