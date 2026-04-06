@@ -1278,7 +1278,7 @@
     <div class="artist-statement-text">
       <h2><span class="artist-statement-eyebrow">על האמנות שלי</span></h2>
       <h2 class="artist-statement-heading" ></h2><h3><span style="font-weight: normal;">כל ציור הוא עולם בפני עצמו</span></h3>
-      <p class="artist-statement-body">אני מאמינה שאמנות אמיתית נולדת מתוך מגע ישיר — מכחול שנוגע בבד, מצבע שמתמזג בידיים, ממחשבה שהופכת לצורה. כל תמונה בעבודת יד שאני יוצרת היא חתיכה ייחודית, שאין לה תאומה בעולם. אני לא מייצרת עיצוב פנים בסדרה — אני צרה אובייקטים עם אופי, מרקם ונוכחות.</p>
+      <p class="artist-statement-body" >אני מאמינה שאמנות אמיתית נולדת מתוך מגע ישיר — מכחול שנוגע בבד, מצבע שמתמזג בידיים, ממחשבה שהופכת לצורה. כל תמונה בעבודת יד שאני יוצרת היא חתיכה ייחודית, שאין לה תאומה בעולם. אני לא מייצרת עיצוב פנים בסדרה — אני צרה אובייקטים עם אופי, מרקם ונוכחות.</p>
       <p class="artist-statement-body">בעולם שבו הכל מוכפל ומשוכפל, ציורים מקוריים למכירה הם בחירה מודעת: להכניס לבית משהו שנוצר בכוונה, שנושא בתוכו שעות של עבודה ורגש. כל קו, כל שכבת צבע, כל מרקם — הם חלק מסיפור שאני מספרת דרך הידיים שלי.</p>
       <div class="artist-statement-quote-block">
         <h3 class="artist-statement-quote">"אני לא מוכרת תמונות — אני מוסרת חתיכה מהעולם שלי לבית שלך."</h3>
@@ -1296,7 +1296,7 @@
         <div class="imagery-border-frame" aria-hidden="true"></div>
       </div>
       <div class="imagery-detail-tile">
-        <img data-placeholder="index-artist-statement-image-2" data-context="Close-up macro detail of a paintbrush applying thick impasto paint strokes on canvas, showing rich texture, layered warm colors like terracotta, cream, and deep plum. The brushwork is expressive and tactile, lit with soft studio light — fine art detail photography, warm tones." width="220" height="220" src="/assets/site-index-artist-statement-image-2.webp" alt="פרט של מכחול ועבודת צבע בציור מקורי בעבודת יד" class="artist-detail-photo" data-element-type="image" data-element-id="img-1775471660762-mll1o68fk" >
+        <div data-zappy-zoom-wrapper="true" data-element-id="img-1775471660762-mll1o68fk" data-element-type="image" data-zappy-zoom-wrapper-width="197px" data-zappy-zoom-wrapper-height="203px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" style="position: relative !important; overflow: hidden !important; width: 197px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 203px !important; display: block !important;"><img data-placeholder="index-artist-statement-image-2" data-context="Close-up macro detail of a paintbrush applying thick impasto paint strokes on canvas, showing rich texture, layered warm colors like terracotta, cream, and deep plum. The brushwork is expressive and tactile, lit with soft studio light — fine art detail photography, warm tones." width="220" height="220" src="/assets/site-index-artist-statement-image-2-1775478741503-zm7z3v.webp?v=1775478743523" alt="פרט של מכחול ועבודת צבע בציור מקורי בעבודת יד" class="artist-detail-photo" data-element-type="image" data-element-id="img-1775471660762-mll1o68fk" style="object-position: 50% 50% !important; display: block; object-fit: cover; margin: 0px !important; left: -4.58415% !important; top: -1.84% !important; width: 107.276% !important; height: 104% !important; max-width: none !important; max-height: none !important;" data-zappy-zoom="1.04" data-zappy-original-width="196.8000030517578" data-zappy-original-height="203" data-zappy-object-position="50% 50%"></div>
       </div>
     </div>
   </div>
@@ -1673,6 +1673,129 @@
       if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileLangMenu); }
       else { initMobileLangMenu(); }
       window.addEventListener('resize', function() { clearTimeout(window._mlrt); window._mlrt = setTimeout(initMobileLangMenu, 250); });
+    })();
+    </script>
+
+    <script>
+    (function(){
+      var _applied=false;
+      function _isHeroBg(w){var img=w.querySelector('img');if(img&&(img.getAttribute('data-hero-bg')==='true'||img.getAttribute('data-hero-background')==='true'))return true;var p=(w.style.position||'').replace(/\s*!important\s*/g,'').trim();var ww=(w.style.width||'').replace(/\s*!important\s*/g,'').trim();var hh=(w.style.height||'').replace(/\s*!important\s*/g,'').trim();return p==='absolute'&&ww==='100%'&&hh==='100%';}
+      function fixDesktopWrappers(){
+        if(window.innerWidth<=768)return;
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          var mode=w.getAttribute('data-zappy-zoom-wrapper-width-mode');
+          if(mode==='full'||mode==='grid-responsive')return;
+          if(_isHeroBg(w))return;
+          var storedW=parseFloat(w.getAttribute('data-zappy-zoom-wrapper-width'));
+          if(!storedW||!isFinite(storedW))return;
+          var parent=w.parentElement;
+          if(!parent)return;
+          var parentW=parent.getBoundingClientRect().width;
+          if(parentW>0&&storedW<parentW*0.6&&storedW<=400){
+            var ratio=storedW/parseFloat(w.getAttribute('data-zappy-zoom-wrapper-height')||'1');
+            var newW=Math.round(Math.min(parentW,800));
+            var newH=Math.round(newW/ratio);
+            w.style.setProperty('width',newW+'px','important');
+            w.style.setProperty('height',newH+'px','important');
+          }
+        });
+      }
+      function applyMobile(){
+        if(_applied)return;_applied=true;
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          var cw=w.style.getPropertyValue('width');
+          if(!cw||cw==='100%')return;
+          if(!w._zappyDesktop)w._zappyDesktop={wStyle:w.getAttribute('style')};
+          var img=w.querySelector('img');
+          if(!img)return;
+          if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};
+          var mobileZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));
+          var mobileSrc=img.getAttribute('data-zappy-mobile-src');
+          var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
+          w.style.setProperty('width','100%','important');
+          w.style.setProperty('max-width','100%','important');
+          if(mobileSrc)img.src=mobileSrc;
+          var pos=mobilePos||img.style.getPropertyValue('object-position')||'50% 50%';
+          if(mobileZoom>1){
+            var wH=w.getAttribute('data-zappy-zoom-wrapper-height');
+            w.style.setProperty('height',wH||'200px','important');
+            img.style.setProperty('position','relative','important');
+            img.style.setProperty('width','100%','important');
+            img.style.setProperty('height','auto','important');
+            img.style.setProperty('min-height','100%','important');
+            img.style.setProperty('max-width','none','important');
+            img.style.setProperty('max-height','none','important');
+            img.style.setProperty('object-fit','cover','important');
+            img.style.setProperty('left','0','important');
+            img.style.setProperty('top','0','important');
+            img.style.setProperty('object-position',pos,'important');
+            img.style.setProperty('transform','scale('+mobileZoom+')','important');
+            img.style.setProperty('transform-origin',pos,'important');
+          }else{
+            w.style.setProperty('height','auto','important');
+            img.style.setProperty('position','relative','important');
+            img.style.setProperty('width','100%','important');
+            img.style.setProperty('height','auto','important');
+            img.style.setProperty('max-width','100%','important');
+            img.style.setProperty('max-height','400px','important');
+            img.style.setProperty('object-fit','cover','important');
+            img.style.setProperty('left','0','important');
+            img.style.setProperty('top','0','important');
+            img.style.setProperty('transform','none','important');
+            if(mobilePos)img.style.setProperty('object-position',pos,'important');
+          }
+        });
+        document.querySelectorAll('img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]').forEach(function(img){
+          var zw=img.closest('[data-zappy-zoom-wrapper="true"]');
+          if(zw&&!_isHeroBg(zw))return;
+          if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};
+          var mobileSrc=img.getAttribute('data-zappy-mobile-src');
+          var mobilePos=img.getAttribute('data-zappy-mobile-object-position');
+          var mobileZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));
+          if(mobileSrc)img.src=mobileSrc;
+          if(mobilePos)img.style.setProperty('object-position',mobilePos,'important');
+          if(mobileZoom>1){
+            img.style.setProperty('transform','scale('+mobileZoom+')','important');
+            img.style.setProperty('transform-origin',mobilePos||'50% 50%','important');
+            var p=img.parentElement;
+            if(p)p.style.setProperty('overflow','hidden','important');
+          }
+        });
+      }
+      function revertDesktop(){
+        if(!_applied)return;_applied=false;
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          if(w._zappyDesktop&&w._zappyDesktop.wStyle!=null){w.setAttribute('style',w._zappyDesktop.wStyle);}
+          var img=w.querySelector('img');
+          if(img&&img._zappyDesktop){
+            if(img._zappyDesktop.src!=null)img.setAttribute('src',img._zappyDesktop.src);
+            if(img._zappyDesktop.style!=null)img.setAttribute('style',img._zappyDesktop.style);
+            else img.removeAttribute('style');
+          }
+        });
+        document.querySelectorAll('img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]').forEach(function(img){
+          var zw=img.closest('[data-zappy-zoom-wrapper="true"]');
+          if(zw&&!_isHeroBg(zw))return;
+          if(img._zappyDesktop){
+            if(img._zappyDesktop.src!=null)img.setAttribute('src',img._zappyDesktop.src);
+            if(img._zappyDesktop.style!=null)img.setAttribute('style',img._zappyDesktop.style);
+            else img.removeAttribute('style');
+          }
+        });
+        _fixHeroBgWrappers();
+        fixDesktopWrappers();
+      }
+      function _fixHeroBgWrappers(){var isMob=window.innerWidth<=768;document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){if(!_isHeroBg(w))return;w.style.setProperty('position','absolute','important');w.style.setProperty('top','0','important');w.style.setProperty('left','0','important');w.style.setProperty('width','100%','important');w.style.setProperty('height','100%','important');w.style.setProperty('max-width','none','important');w.style.setProperty('overflow','hidden','important');w.setAttribute('data-zappy-zoom-wrapper-width-mode','full');var img=w.querySelector('img');if(img){img.style.setProperty('width','100%','important');img.style.setProperty('height','100%','important');img.style.setProperty('object-fit','cover','important');img.style.setProperty('position','relative','important');img.style.setProperty('top','0','important');img.style.setProperty('left','0','important');img.style.setProperty('max-width','none','important');img.style.setProperty('max-height','none','important');img.style.setProperty('display','block','important');if(isMob){var mSrc=img.getAttribute('data-zappy-mobile-src');var mPos=img.getAttribute('data-zappy-mobile-object-position');var mZoom=parseFloat(img.getAttribute('data-zappy-mobile-zoom'));if(mSrc){if(!img._zappyDesktop)img._zappyDesktop={src:img.getAttribute('src'),style:img.getAttribute('style')};img.src=mSrc;}if(mPos)img.style.setProperty('object-position',mPos,'important');if(mZoom>1){img.style.setProperty('transform','scale('+mZoom+')','important');img.style.setProperty('transform-origin',mPos||'50% 50%','important');}}}});}
+      function init(){
+        _fixHeroBgWrappers();
+        var mq=window.matchMedia('(max-width:768px)');
+        function onChange(e){if(e.matches)applyMobile();else revertDesktop();}
+        if(mq.matches)applyMobile();
+        else fixDesktopWrappers();
+        try{mq.addEventListener('change',onChange);}catch(e){mq.addListener(onChange);}
+      }
+      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);
+      else setTimeout(init,50);
     })();
     </script>
 </body>
