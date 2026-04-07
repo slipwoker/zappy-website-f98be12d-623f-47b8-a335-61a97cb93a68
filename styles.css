@@ -10363,11 +10363,10 @@ main,
 /* ==END ZAPPY V2 E-COMMERCE THEME CSS== */
 
 /* Legal Pages Content Styles */
-
-/* Legal Pages Content Styles */
 .legal-page-content {
-  padding: 60px 0;
+  padding: 120px 0 60px;
   min-height: 60vh;
+  color: inherit;
 }
 
 .legal-page-content .container {
@@ -10415,20 +10414,39 @@ main,
   line-height: 1.6;
 }
 
-.legal-page-content .contact-box {
+.legal-page-content .contact-box,
+.legal-page-content .contact-info {
   background: rgba(0, 0, 0, 0.03);
   padding: 1.5rem;
   border-radius: 8px;
   margin-top: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.legal-page-content .contact-box a {
+.legal-page-content .contact-box a,
+.legal-page-content .contact-info a {
   color: inherit;
   text-decoration: underline;
 }
 
-.legal-page-content .contact-box a:hover {
+.legal-page-content .contact-box a:hover,
+.legal-page-content .contact-info a:hover {
   opacity: 0.8;
+}
+
+.legal-page-content .important-notice,
+.legal-page-content .legal-reference {
+  background: rgba(0, 0, 0, 0.03);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border-left: 4px solid currentColor;
+}
+
+[dir="rtl"] .legal-page-content .important-notice,
+[dir="rtl"] .legal-page-content .legal-reference {
+  border-left: none;
+  border-right: 4px solid currentColor;
 }
 
 
