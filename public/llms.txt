@@ -12,6 +12,10 @@ https://example.com
 https://example.com/about
 נטלי ויסברג היא אמנית ישראלית שיוצרת ציורים מקוריים מתוך תשוקה אמיתית. גלי את הסיפור שמאחורי כל יצירה, ואת הדרך שהפכה אהבה לאמנות לעסק שלם ומרגש.
 
+### יצירות שמדברות אל הלב — Nataly Visberg Art Studio
+https://example.com/custom-creation
+תיק עבודות מלא בציורים מקוריים למכירה — כל יצירה צבועה ביד ומחכה לבית החדש שלה. עיצוב פנים עם ציורים מקוריים שהופך כל קיר לסיפור. בחרי את שלך עכשיו.
+
 ### מוצרים
 https://example.com/products
 המוצרים שלנו - Nataly Visberg Art Studio
@@ -43,10 +47,6 @@ https://example.com/product/:slug
 ### מוצרים
 https://example.com/category/:slug
 מוצרים - Nataly Visberg Art Studio
-
-### יצירות שמדברות אל הלב — Nataly Visberg Art Studio
-https://example.com/custom-creation
-תיק עבודות מלא בציורים מקוריים למכירה — כל יצירה צבועה ביד ומחכה לבית החדש שלה. עיצוב פנים עם ציורים מקוריים שהופך כל קיר לסיפור. בחרי את שלך עכשיו.
 
 ### הביתי שלך מתחיל בשיחה אחת — Nataly Visberg Art Studio
 https://example.com/contact
