@@ -10933,20 +10933,7 @@ nav.navbar .sub-menu li a:hover { color: #6C3B5A !important; background-color: r
 /* === NAVBAR STYLE OVERRIDES END === */
 
 
-/* Zappy custom logo size (desktop only — mobile stays at 110px/35px) */
-@media (min-width: 769px) {
-  .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
-    max-height: none !important;
-    height: 58px !important;
-    max-width: 232px !important;
-    width: auto !important;
-    object-fit: contain !important;
-  }
-  .nav-container {
-    min-height: 88px !important;
-  }
-}
-/* /Zappy custom logo size */
+
 
 
 
@@ -15025,6 +15012,21 @@ main,
 }
 
 /* ==END ZAPPY V2 E-COMMERCE THEME CSS== */
+/* Zappy custom logo size (desktop only — mobile stays at 110px/35px) */
+@media (min-width: 769px) {
+  .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
+    max-height: none !important;
+    height: 52px !important;
+    max-width: 208px !important;
+    width: auto !important;
+    object-fit: contain !important;
+  }
+  .nav-container {
+    min-height: 82px !important;
+  }
+}
+/* /Zappy custom logo size */
+
 
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
