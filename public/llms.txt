@@ -16,35 +16,35 @@ https://example.com/custom-creation
 https://example.com/about
 נטלי ויסברג היא אמנית ישראלית שיוצרת ציורים מקוריים מתוך תשוקה אמיתית. גלי את הסיפור שמאחורי כל יצירה, ואת הדרך שהפכה אהבה לאמנות לעסק שלם ומרגש.
 
-### לרכישת יצירות
+### Products
 https://example.com/products
 המוצרים שלנו - Nataly Visberg Art Studio
 
-### עגלת קניות
+### Cart
 https://example.com/cart
 עגלת הקניות שלך
 
-### תשלום
+### Checkout
 https://example.com/checkout
 תשלום
 
-### התחברות
+### Login
 https://example.com/login
 התחברות לקוחות
 
-### החשבון שלי
+### Account
 https://example.com/account
 החשבון שלי
 
-### ההזמנה התקבלה!
+### Order Success
 https://example.com/order-success
 תודה על ההזמנה
 
-### פרטי המוצר
+### Product Detail
 https://example.com/product/:slug
 פרטי המוצר - Nataly Visberg Art Studio
 
-### לרכישת יצירות
+### Category
 https://example.com/category/:slug
 מוצרים - Nataly Visberg Art Studio
 
